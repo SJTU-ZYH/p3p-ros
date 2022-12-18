@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<launch>
+
+  <!-- Load Parameter -->
+  <arg name="img1_path"         value="/home/zyh/p3p-ros/src/pose_estimate_3d3d/media/1.png"/>
+  <arg name="img2_path"         value="/home/zyh/p3p-ros/src/pose_estimate_3d3d/media/2.png"/>
+  <arg name="depth1_path"       value="/home/zyh/p3p-ros/src/pose_estimate_3d3d/media/1_depth.png" />
+  <arg name="depth2_path"       value="/home/zyh/p3p-ros/src/pose_estimate_3d3d/media/2_depth.png" />
+
+  <!-- Start p3p-->
+  <node pkg="pose_estimate_3d3d" type="pose_estimate_3d3d" name="p3p-ros" output="screen" >
+    <param name="img1_path"       value="$(arg img1_path)"/>
+    <param name="img2_path"       value="$(arg img2_path)"/>
+    <param name="depth1_path"     value="$(arg depth1_path)" />
+    <param name="depth2_path"     value="$(arg depth2_path)" />
+  </node>
+</launch>

@@ -1,0 +1,1 @@
+/home/zyh/p3p-ros/devel/.private/pose_estimate_3d3d/lib/pkgconfig/pose_estimate_3d3d.pc

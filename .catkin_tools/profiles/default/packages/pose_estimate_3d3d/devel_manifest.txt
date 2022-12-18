@@ -1,0 +1,5 @@
+pose_estimate_3d3d
+/home/zyh/p3p-ros/devel/.private/pose_estimate_3d3d/cmake.lock /home/zyh/p3p-ros/devel/./cmake.lock
+/home/zyh/p3p-ros/devel/.private/pose_estimate_3d3d/share/pose_estimate_3d3d/cmake/pose_estimate_3d3dConfig-version.cmake /home/zyh/p3p-ros/devel/share/pose_estimate_3d3d/cmake/pose_estimate_3d3dConfig-version.cmake
+/home/zyh/p3p-ros/devel/.private/pose_estimate_3d3d/share/pose_estimate_3d3d/cmake/pose_estimate_3d3dConfig.cmake /home/zyh/p3p-ros/devel/share/pose_estimate_3d3d/cmake/pose_estimate_3d3dConfig.cmake
+/home/zyh/p3p-ros/devel/.private/pose_estimate_3d3d/lib/pkgconfig/pose_estimate_3d3d.pc /home/zyh/p3p-ros/devel/lib/pkgconfig/pose_estimate_3d3d.pc

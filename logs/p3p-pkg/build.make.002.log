@@ -1,0 +1,5 @@
+[ 50%] [32m[1mLinking CXX executable /home/zyh/p3p-ros/devel/.private/p3p-pkg/lib/p3p-pkg/p3p_3d3d[0m
+/usr/bin/ld: warning: libopencv_flann.so.4.2, needed by /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.4.2.0, may conflict with libopencv_flann.so.3.4
+/usr/bin/ld: warning: libopencv_imgproc.so.4.2, needed by /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.4.2.0, may conflict with libopencv_imgproc.so.3.4
+/usr/bin/ld: warning: libopencv_core.so.3.4, needed by /usr/local/lib/libopencv_flann.so.3.4.3, may conflict with libopencv_core.so.4.2
+[100%] Built target p3p_3d3d

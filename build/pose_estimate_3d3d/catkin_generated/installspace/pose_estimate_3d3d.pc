@@ -1,0 +1,8 @@
+prefix=/home/zyh/p3p-ros/install
+
+Name: pose_estimate_3d3d
+Description: Description of pose_estimate_3d3d
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lpose_estimate_3d3d
+Requires: roscpp rospy std_msgs cv_bridge

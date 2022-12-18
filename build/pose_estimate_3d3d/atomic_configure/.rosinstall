@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/zyh/p3p-ros/devel/.private/pose_estimate_3d3d/setup.sh

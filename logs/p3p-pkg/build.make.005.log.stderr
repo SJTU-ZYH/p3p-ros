@@ -1,0 +1,120 @@
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:[m[K In member function ‘[01m[Kvirtual bool VertexPose::read(std::istream&)[m[K’:
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:63:44:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   63 |   virtual bool read(istream &in) override {[01;35m[K}[m[K
+      |                                            [01;35m[K^[m[K
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:[m[K In member function ‘[01m[Kvirtual bool VertexPose::write(std::ostream&) const[m[K’:
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:65:52:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   65 |   virtual bool write(ostream &out) const override {[01;35m[K}[m[K
+      |                                                    [01;35m[K^[m[K
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:[m[K In member function ‘[01m[Kvirtual bool EdgeProjectXYZRGBDPoseOnly::read(std::istream&)[m[K’:
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:88:27:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   88 |   bool read(istream &in) {[01;35m[K}[m[K
+      |                           [01;35m[K^[m[K
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:[m[K In member function ‘[01m[Kvirtual bool EdgeProjectXYZRGBDPoseOnly::write(std::ostream&) const[m[K’:
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:90:35:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   90 |   bool write(ostream &out) const {[01;35m[K}[m[K
+      |                                   [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:1[m[K:
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:112:12:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 8 has type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K-Wformat=[m[K]
+  112 |   ROS_INFO([01;35m[K"img1_path:       %s"[m[K,img1_path);
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:112:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+  112 |   [01;36m[KROS_INFO[m[K("img1_path:       %s",img1_path);
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:112:31:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  112 |   ROS_INFO("img1_path:       [01;36m[K%s[m[K",img1_path);
+      |                              [01;36m[K~^[m[K
+      |                               [01;36m[K|[m[K
+      |                               [01;36m[Kchar*[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:1[m[K:
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:113:12:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 8 has type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K-Wformat=[m[K]
+  113 |   ROS_INFO([01;35m[K"img2_path:       %s"[m[K,img2_path);
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:113:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+  113 |   [01;36m[KROS_INFO[m[K("img2_path:       %s",img2_path);
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:113:31:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  113 |   ROS_INFO("img2_path:       [01;36m[K%s[m[K",img2_path);
+      |                              [01;36m[K~^[m[K
+      |                               [01;36m[K|[m[K
+      |                               [01;36m[Kchar*[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:1[m[K:
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:114:12:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 8 has type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K-Wformat=[m[K]
+  114 |   ROS_INFO([01;35m[K"depth1_path:     %s"[m[K,depth1_path);
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:114:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+  114 |   [01;36m[KROS_INFO[m[K("depth1_path:     %s",depth1_path);
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:114:31:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  114 |   ROS_INFO("depth1_path:     [01;36m[K%s[m[K",depth1_path);
+      |                              [01;36m[K~^[m[K
+      |                               [01;36m[K|[m[K
+      |                               [01;36m[Kchar*[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:1[m[K:
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:115:12:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 8 has type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K-Wformat=[m[K]
+  115 |   ROS_INFO([01;35m[K"depth1_path:     %s"[m[K,depth1_path);
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:115:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+  115 |   [01;36m[KROS_INFO[m[K("depth1_path:     %s",depth1_path);
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:115:31:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  115 |   ROS_INFO("depth1_path:     [01;36m[K%s[m[K",depth1_path);
+      |                              [01;36m[K~^[m[K
+      |                               [01;36m[K|[m[K
+      |                               [01;36m[Kchar*[m[K
+/usr/bin/ld: warning: libopencv_flann.so.4.2, needed by /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.4.2.0, may conflict with libopencv_flann.so.3.4
+/usr/bin/ld: warning: libopencv_imgproc.so.4.2, needed by /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.4.2.0, may conflict with libopencv_imgproc.so.3.4
+/usr/bin/ld: warning: libopencv_core.so.3.4, needed by /usr/local/lib/libopencv_flann.so.3.4.3, may conflict with libopencv_core.so.4.2

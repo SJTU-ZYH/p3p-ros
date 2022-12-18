@@ -1,0 +1,18 @@
+[31m[1mCMake Error[0m at /home/zyh/p3p-ros/src/pose_estimate_3d3d/CMakeLists.txt:12 (find_package):
+  By not providing "FindCSparse.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "CSparse", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "CSparse" with any
+  of the following names:
+
+    CSparseConfig.cmake
+    csparse-config.cmake
+
+  Add the installation prefix of "CSparse" to CMAKE_PREFIX_PATH or set
+  "CSparse_DIR" to a directory containing one of the above files.  If
+  "CSparse" provides a separate development package or SDK, be sure it has
+  been installed.
+
+
+make: *** [Makefile:530：cmake_check_build_system] 错误 1

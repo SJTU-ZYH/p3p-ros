@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -std=c++11 -O2  -msse4 -O3 -DNDEBUG  -shared -Wl,-soname,libgmock.so -o ../lib/libgmock.so CMakeFiles/gmock.dir/src/gmock-all.cc.o  -Wl,-rpath,/home/zyh/p3p-ros/build/p3p-pkg/gtest/lib ../lib/libgtest.so -lpthread 

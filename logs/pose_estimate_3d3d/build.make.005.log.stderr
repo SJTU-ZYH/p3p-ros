@@ -1,0 +1,132 @@
+[01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:[m[K In member function ‘[01m[Kvirtual bool VertexPose::read(std::istream&)[m[K’:
+[01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:63:44:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   63 |   virtual bool read(istream &in) override {[01;35m[K}[m[K
+      |                                            [01;35m[K^[m[K
+[01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:[m[K In member function ‘[01m[Kvirtual bool VertexPose::write(std::ostream&) const[m[K’:
+[01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:65:52:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   65 |   virtual bool write(ostream &out) const override {[01;35m[K}[m[K
+      |                                                    [01;35m[K^[m[K
+[01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:[m[K In member function ‘[01m[Kvirtual bool EdgeProjectXYZRGBDPoseOnly::read(std::istream&)[m[K’:
+[01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:88:27:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   88 |   bool read(istream &in) {[01;35m[K}[m[K
+      |                           [01;35m[K^[m[K
+[01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:[m[K In member function ‘[01m[Kvirtual bool EdgeProjectXYZRGBDPoseOnly::write(std::ostream&) const[m[K’:
+[01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:90:35:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   90 |   bool write(ostream &out) const {[01;35m[K}[m[K
+      |                                   [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:1[m[K:
+[01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:112:44:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kconst _CharT* std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::data() const [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+  112 |   ROS_INFO("img1_path:       %s",[01;31m[Kimg1_path.data[m[K);
+      |                                  [01;31m[K~~~~~~~~~~^~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:112:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+  112 |   [01;36m[KROS_INFO[m[K("img1_path:       %s",img1_path.data);
+      |   [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/platform.h:38[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/time.h:53[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/basic_string.h:2316:7:[m[K [01;36m[Knote: [m[Kdeclared here
+ 2316 |       [01;36m[Kdata[m[K() const _GLIBCXX_NOEXCEPT
+      |       [01;36m[K^~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:1[m[K:
+[01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:113:44:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kconst _CharT* std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::data() const [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+  113 |   ROS_INFO("img2_path:       %s",[01;31m[Kimg2_path.data[m[K);
+      |                                  [01;31m[K~~~~~~~~~~^~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:113:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+  113 |   [01;36m[KROS_INFO[m[K("img2_path:       %s",img2_path.data);
+      |   [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/platform.h:38[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/time.h:53[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/basic_string.h:2316:7:[m[K [01;36m[Knote: [m[Kdeclared here
+ 2316 |       [01;36m[Kdata[m[K() const _GLIBCXX_NOEXCEPT
+      |       [01;36m[K^~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:1[m[K:
+[01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:114:46:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kconst _CharT* std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::data() const [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+  114 |   ROS_INFO("depth1_path:     %s",[01;31m[Kdepth1_path.data[m[K);
+      |                                  [01;31m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:114:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+  114 |   [01;36m[KROS_INFO[m[K("depth1_path:     %s",depth1_path.data);
+      |   [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/platform.h:38[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/time.h:53[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/basic_string.h:2316:7:[m[K [01;36m[Knote: [m[Kdeclared here
+ 2316 |       [01;36m[Kdata[m[K() const _GLIBCXX_NOEXCEPT
+      |       [01;36m[K^~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:1[m[K:
+[01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:115:46:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kconst _CharT* std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::data() const [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+  115 |   ROS_INFO("depth1_path:     %s",[01;31m[Kdepth1_path.data[m[K);
+      |                                  [01;31m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:115:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+  115 |   [01;36m[KROS_INFO[m[K("depth1_path:     %s",depth1_path.data);
+      |   [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/platform.h:38[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/time.h:53[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/basic_string.h:2316:7:[m[K [01;36m[Knote: [m[Kdeclared here
+ 2316 |       [01;36m[Kdata[m[K() const _GLIBCXX_NOEXCEPT
+      |       [01;36m[K^~~~[m[K
+make[2]: *** [CMakeFiles/pose_estimate_3d3d_node.dir/build.make:63：CMakeFiles/pose_estimate_3d3d_node.dir/src/pose_estimation_3d3d.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/pose_estimate_3d3d_node.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

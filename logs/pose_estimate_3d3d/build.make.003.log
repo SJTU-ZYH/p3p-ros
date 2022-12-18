@@ -1,0 +1,182 @@
+[35m[1mScanning dependencies of target pose_estimate_3d3d_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pose_estimate_3d3d_node.dir/src/pose_estimation_3d3d.cpp.o[0m
+[01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:[m[K In member function ‘[01m[Kvirtual bool VertexPose::read(std::istream&)[m[K’:
+[01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:62:44:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   62 |   virtual bool read(istream &in) override {[01;35m[K}[m[K
+      |                                            [01;35m[K^[m[K
+[01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:[m[K In member function ‘[01m[Kvirtual bool VertexPose::write(std::ostream&) const[m[K’:
+[01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:64:52:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   64 |   virtual bool write(ostream &out) const override {[01;35m[K}[m[K
+      |                                                    [01;35m[K^[m[K
+[01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:[m[K In member function ‘[01m[Kvirtual bool EdgeProjectXYZRGBDPoseOnly::read(std::istream&)[m[K’:
+[01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:87:27:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   87 |   bool read(istream &in) {[01;35m[K}[m[K
+      |                           [01;35m[K^[m[K
+[01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:[m[K In member function ‘[01m[Kvirtual bool EdgeProjectXYZRGBDPoseOnly::write(std::ostream&) const[m[K’:
+[01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:89:35:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   89 |   bool write(ostream &out) const {[01;35m[K}[m[K
+      |                                   [01;35m[K^[m[K
+[01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:105:108:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::param<std_msgs::String>(const char [10], std_msgs::String&, const char [53])[m[K’
+  105 |   nh.param<std_msgs::String>("img1_path", img1_path, "/home/zyh/p3p-ros/src/pose_estimate_3d3d/media/1.png"[01;31m[K)[m[K;
+      |                                                                                                            [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:2120:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool ros::NodeHandle::param(const string&, T&, const T&) const [with T = std_msgs::String_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>][m[K’
+ 2120 |   bool [01;36m[Kparam[m[K(const std::string& param_name, T& param_val, const T& default_val) const
+      |        [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:2120:68:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Kconst char [53][m[K’ to ‘[01m[Kconst std_msgs::String_<std::allocator<void> >&[m[K’
+ 2120 |   bool param(const std::string& param_name, T& param_val, [01;36m[Kconst T& default_val[m[K) const
+      |                                                           [01;36m[K~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:2153:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KT ros::NodeHandle::param(const string&, const T&) const [with T = std_msgs::String_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>][m[K’
+ 2153 |   T [01;36m[Kparam[m[K(const std::string& param_name, const T& default_val) const
+      |     [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:2153:5:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:106:108:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::param<std_msgs::String>(const char [10], std_msgs::String&, const char [53])[m[K’
+  106 |   nh.param<std_msgs::String>("img2_path", img2_path, "/home/zyh/p3p-ros/src/pose_estimate_3d3d/media/1.png"[01;31m[K)[m[K;
+      |                                                                                                            [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:2120:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool ros::NodeHandle::param(const string&, T&, const T&) const [with T = std_msgs::String_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>][m[K’
+ 2120 |   bool [01;36m[Kparam[m[K(const std::string& param_name, T& param_val, const T& default_val) const
+      |        [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:2120:68:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Kconst char [53][m[K’ to ‘[01m[Kconst std_msgs::String_<std::allocator<void> >&[m[K’
+ 2120 |   bool param(const std::string& param_name, T& param_val, [01;36m[Kconst T& default_val[m[K) const
+      |                                                           [01;36m[K~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:2153:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KT ros::NodeHandle::param(const string&, const T&) const [with T = std_msgs::String_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>][m[K’
+ 2153 |   T [01;36m[Kparam[m[K(const std::string& param_name, const T& default_val) const
+      |     [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:2153:5:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:107:118:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::param<std_msgs::String>(const char [12], std_msgs::String&, const char [59])[m[K’
+  107 |   nh.param<std_msgs::String>("depth1_path", depth1_path, "/home/zyh/p3p-ros/src/pose_estimate_3d3d/media/1_depth.png"[01;31m[K)[m[K;
+      |                                                                                                                      [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:2120:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool ros::NodeHandle::param(const string&, T&, const T&) const [with T = std_msgs::String_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>][m[K’
+ 2120 |   bool [01;36m[Kparam[m[K(const std::string& param_name, T& param_val, const T& default_val) const
+      |        [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:2120:68:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Kconst char [59][m[K’ to ‘[01m[Kconst std_msgs::String_<std::allocator<void> >&[m[K’
+ 2120 |   bool param(const std::string& param_name, T& param_val, [01;36m[Kconst T& default_val[m[K) const
+      |                                                           [01;36m[K~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:2153:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KT ros::NodeHandle::param(const string&, const T&) const [with T = std_msgs::String_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>][m[K’
+ 2153 |   T [01;36m[Kparam[m[K(const std::string& param_name, const T& default_val) const
+      |     [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:2153:5:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:108:118:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::param<std_msgs::String>(const char [12], std_msgs::String&, const char [59])[m[K’
+  108 |   nh.param<std_msgs::String>("depth2_path", depth2_path, "/home/zyh/p3p-ros/src/pose_estimate_3d3d/media/2_depth.png"[01;31m[K)[m[K;
+      |                                                                                                                      [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:2120:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool ros::NodeHandle::param(const string&, T&, const T&) const [with T = std_msgs::String_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>][m[K’
+ 2120 |   bool [01;36m[Kparam[m[K(const std::string& param_name, T& param_val, const T& default_val) const
+      |        [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:2120:68:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Kconst char [59][m[K’ to ‘[01m[Kconst std_msgs::String_<std::allocator<void> >&[m[K’
+ 2120 |   bool param(const std::string& param_name, T& param_val, [01;36m[Kconst T& default_val[m[K) const
+      |                                                           [01;36m[K~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:2153:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KT ros::NodeHandle::param(const string&, const T&) const [with T = std_msgs::String_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>][m[K’
+ 2153 |   T [01;36m[Kparam[m[K(const std::string& param_name, const T& default_val) const
+      |     [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:2153:5:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:1[m[K:
+[01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:111:12:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 8 has type ‘[01m[Kstd_msgs::String_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K-Wformat=[m[K]
+  111 |   ROS_INFO([01;35m[K"img1_path:       %s"[m[K,img1_path.data);
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:111:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+  111 |   [01;36m[KROS_INFO[m[K("img1_path:       %s",img1_path.data);
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:111:31:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  111 |   ROS_INFO("img1_path:       [01;36m[K%s[m[K",img1_path.data);
+      |                              [01;36m[K~^[m[K
+      |                               [01;36m[K|[m[K
+      |                               [01;36m[Kchar*[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:1[m[K:
+[01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:112:12:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 8 has type ‘[01m[Kstd_msgs::String_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K-Wformat=[m[K]
+  112 |   ROS_INFO([01;35m[K"img2_path:       %s"[m[K,img2_path.data);
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:112:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+  112 |   [01;36m[KROS_INFO[m[K("img2_path:       %s",img2_path.data);
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:112:31:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  112 |   ROS_INFO("img2_path:       [01;36m[K%s[m[K",img2_path.data);
+      |                              [01;36m[K~^[m[K
+      |                               [01;36m[K|[m[K
+      |                               [01;36m[Kchar*[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:1[m[K:
+[01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:113:12:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 8 has type ‘[01m[Kstd_msgs::String_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K-Wformat=[m[K]
+  113 |   ROS_INFO([01;35m[K"depth1_path:     %s"[m[K,depth1_path.data);
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:113:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+  113 |   [01;36m[KROS_INFO[m[K("depth1_path:     %s",depth1_path.data);
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:113:31:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  113 |   ROS_INFO("depth1_path:     [01;36m[K%s[m[K",depth1_path.data);
+      |                              [01;36m[K~^[m[K
+      |                               [01;36m[K|[m[K
+      |                               [01;36m[Kchar*[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:1[m[K:
+[01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:114:12:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 8 has type ‘[01m[Kstd_msgs::String_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K-Wformat=[m[K]
+  114 |   ROS_INFO([01;35m[K"depth1_path:     %s"[m[K,depth1_path.data);
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:114:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+  114 |   [01;36m[KROS_INFO[m[K("depth1_path:     %s",depth1_path.data);
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/home/zyh/p3p-ros/src/pose_estimate_3d3d/src/pose_estimation_3d3d.cpp:114:31:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  114 |   ROS_INFO("depth1_path:     [01;36m[K%s[m[K",depth1_path.data);
+      |                              [01;36m[K~^[m[K
+      |                               [01;36m[K|[m[K
+      |                               [01;36m[Kchar*[m[K
+make[2]: *** [CMakeFiles/pose_estimate_3d3d_node.dir/build.make:63：CMakeFiles/pose_estimate_3d3d_node.dir/src/pose_estimation_3d3d.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/pose_estimate_3d3d_node.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

@@ -1,0 +1,6 @@
+devel_space: /home/zyh/p3p-ros/devel
+install: false
+install_space: /home/zyh/p3p-ros/install
+profile: default
+source_space: /home/zyh/p3p-ros/src
+workspace: /home/zyh/p3p-ros
