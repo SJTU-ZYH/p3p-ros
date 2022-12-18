@@ -1,8 +1,0 @@
-prefix=/home/zyh/p3p-ros/devel/.private/pose_estimate_3d3d
-
-Name: pose_estimate_3d3d
-Description: Description of pose_estimate_3d3d
-Version: 0.0.0
-Cflags: -I/home/zyh/p3p-ros/src/pose_estimate_3d3d/include
-Libs: -L${prefix}/lib -lpose_estimate_3d3d
-Requires: roscpp rospy std_msgs cv_bridge

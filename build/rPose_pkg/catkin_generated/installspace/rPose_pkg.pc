@@ -1,0 +1,8 @@
+prefix=/home/zyh/p3p-ros/install
+
+Name: rPose_pkg
+Description: Description of rPose_pkg
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: rospy std_msgs message_runtime

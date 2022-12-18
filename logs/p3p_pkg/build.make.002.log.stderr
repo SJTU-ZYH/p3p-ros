@@ -1,0 +1,142 @@
+[01m[K/home/zyh/p3p-ros/src/p3p_pkg/src/p3p_3d3d.cpp:[m[K In member function ‘[01m[Kvirtual bool VertexPose::read(std::istream&)[m[K’:
+[01m[K/home/zyh/p3p-ros/src/p3p_pkg/src/p3p_3d3d.cpp:67:44:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   67 |   virtual bool read(istream &in) override {[01;35m[K}[m[K
+      |                                            [01;35m[K^[m[K
+[01m[K/home/zyh/p3p-ros/src/p3p_pkg/src/p3p_3d3d.cpp:[m[K In member function ‘[01m[Kvirtual bool VertexPose::write(std::ostream&) const[m[K’:
+[01m[K/home/zyh/p3p-ros/src/p3p_pkg/src/p3p_3d3d.cpp:69:52:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   69 |   virtual bool write(ostream &out) const override {[01;35m[K}[m[K
+      |                                                    [01;35m[K^[m[K
+[01m[K/home/zyh/p3p-ros/src/p3p_pkg/src/p3p_3d3d.cpp:[m[K In member function ‘[01m[Kvirtual bool EdgeProjectXYZRGBDPoseOnly::read(std::istream&)[m[K’:
+[01m[K/home/zyh/p3p-ros/src/p3p_pkg/src/p3p_3d3d.cpp:92:27:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   92 |   bool read(istream &in) {[01;35m[K}[m[K
+      |                           [01;35m[K^[m[K
+[01m[K/home/zyh/p3p-ros/src/p3p_pkg/src/p3p_3d3d.cpp:[m[K In member function ‘[01m[Kvirtual bool EdgeProjectXYZRGBDPoseOnly::write(std::ostream&) const[m[K’:
+[01m[K/home/zyh/p3p-ros/src/p3p_pkg/src/p3p_3d3d.cpp:94:35:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   94 |   bool write(ostream &out) const {[01;35m[K}[m[K
+      |                                   [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/zyh/p3p-ros/src/p3p_pkg/src/p3p_3d3d.cpp:1[m[K:
+[01m[K/home/zyh/p3p-ros/src/p3p_pkg/src/p3p_3d3d.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/opt/ros/noetic/include/ros/console.h:351:176:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kprint(NULL, void*&, ros::console::Level&, const char [47], int, const char [22], std::__cxx11::basic_string<char>)[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;31m[K)[m[K
+      |                                                                                                                                                                                [01;31m[K^[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:354:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  354 |     [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/zyh/p3p-ros/src/p3p_pkg/src/p3p_3d3d.cpp:116:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+  116 |   [01;36m[KROS_INFO[m[K("img1_path:       "+img1_path);
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:161:22:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid ros::console::print(ros::console::FilterBase*, void*, ros::console::Level, const char*, int, const char*, const char*, ...)[m[K’
+  161 | ROSCONSOLE_DECL void [01;36m[Kprint[m[K(FilterBase* filter, void* logger, Level level,
+      |                      [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:163:39:[m[K [01;36m[Knote: [m[K  no known conversion for argument 7 from ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst char*[m[K’
+  163 |     const char* function, [01;36m[Kconst char* fmt[m[K, ...) ROSCONSOLE_PRINTF_ATTRIBUTE(7, 8);
+      |                           [01;36m[K~~~~~~~~~~~~^~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:165:22:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid ros::console::print(ros::console::FilterBase*, void*, ros::console::Level, const stringstream&, const char*, int, const char*)[m[K’
+  165 | ROSCONSOLE_DECL void [01;36m[Kprint[m[K(FilterBase* filter, void* logger, Level level,
+      |                      [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:166:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 4 from ‘[01m[Kconst char [47][m[K’ to ‘[01m[Kconst stringstream&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_stringstream<char>&[m[K’}
+  166 |     [01;36m[Kconst std::stringstream& str[m[K, const char* file, int line, const char* function);
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:176:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kprint(NULL, void*&, ros::console::Level&, const char [47], int, const char [22], std::__cxx11::basic_string<char>)[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;31m[K)[m[K
+      |                                                                                                                                                                                [01;31m[K^[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:354:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  354 |     [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/zyh/p3p-ros/src/p3p_pkg/src/p3p_3d3d.cpp:117:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+  117 |   [01;36m[KROS_INFO[m[K("img2_path:       "+img2_path);
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:161:22:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid ros::console::print(ros::console::FilterBase*, void*, ros::console::Level, const char*, int, const char*, const char*, ...)[m[K’
+  161 | ROSCONSOLE_DECL void [01;36m[Kprint[m[K(FilterBase* filter, void* logger, Level level,
+      |                      [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:163:39:[m[K [01;36m[Knote: [m[K  no known conversion for argument 7 from ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst char*[m[K’
+  163 |     const char* function, [01;36m[Kconst char* fmt[m[K, ...) ROSCONSOLE_PRINTF_ATTRIBUTE(7, 8);
+      |                           [01;36m[K~~~~~~~~~~~~^~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:165:22:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid ros::console::print(ros::console::FilterBase*, void*, ros::console::Level, const stringstream&, const char*, int, const char*)[m[K’
+  165 | ROSCONSOLE_DECL void [01;36m[Kprint[m[K(FilterBase* filter, void* logger, Level level,
+      |                      [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:166:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 4 from ‘[01m[Kconst char [47][m[K’ to ‘[01m[Kconst stringstream&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_stringstream<char>&[m[K’}
+  166 |     [01;36m[Kconst std::stringstream& str[m[K, const char* file, int line, const char* function);
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:176:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kprint(NULL, void*&, ros::console::Level&, const char [47], int, const char [22], std::__cxx11::basic_string<char>)[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;31m[K)[m[K
+      |                                                                                                                                                                                [01;31m[K^[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:354:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  354 |     [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/zyh/p3p-ros/src/p3p_pkg/src/p3p_3d3d.cpp:118:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+  118 |   [01;36m[KROS_INFO[m[K("depth1_path:     "+depth1_path);
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:161:22:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid ros::console::print(ros::console::FilterBase*, void*, ros::console::Level, const char*, int, const char*, const char*, ...)[m[K’
+  161 | ROSCONSOLE_DECL void [01;36m[Kprint[m[K(FilterBase* filter, void* logger, Level level,
+      |                      [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:163:39:[m[K [01;36m[Knote: [m[K  no known conversion for argument 7 from ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst char*[m[K’
+  163 |     const char* function, [01;36m[Kconst char* fmt[m[K, ...) ROSCONSOLE_PRINTF_ATTRIBUTE(7, 8);
+      |                           [01;36m[K~~~~~~~~~~~~^~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:165:22:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid ros::console::print(ros::console::FilterBase*, void*, ros::console::Level, const stringstream&, const char*, int, const char*)[m[K’
+  165 | ROSCONSOLE_DECL void [01;36m[Kprint[m[K(FilterBase* filter, void* logger, Level level,
+      |                      [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:166:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 4 from ‘[01m[Kconst char [47][m[K’ to ‘[01m[Kconst stringstream&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_stringstream<char>&[m[K’}
+  166 |     [01;36m[Kconst std::stringstream& str[m[K, const char* file, int line, const char* function);
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:176:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kprint(NULL, void*&, ros::console::Level&, const char [47], int, const char [22], std::__cxx11::basic_string<char>)[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;31m[K)[m[K
+      |                                                                                                                                                                                [01;31m[K^[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:354:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  354 |     [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/zyh/p3p-ros/src/p3p_pkg/src/p3p_3d3d.cpp:119:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+  119 |   [01;36m[KROS_INFO[m[K("depth1_path:     "+depth1_path);
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:161:22:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid ros::console::print(ros::console::FilterBase*, void*, ros::console::Level, const char*, int, const char*, const char*, ...)[m[K’
+  161 | ROSCONSOLE_DECL void [01;36m[Kprint[m[K(FilterBase* filter, void* logger, Level level,
+      |                      [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:163:39:[m[K [01;36m[Knote: [m[K  no known conversion for argument 7 from ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst char*[m[K’
+  163 |     const char* function, [01;36m[Kconst char* fmt[m[K, ...) ROSCONSOLE_PRINTF_ATTRIBUTE(7, 8);
+      |                           [01;36m[K~~~~~~~~~~~~^~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:165:22:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid ros::console::print(ros::console::FilterBase*, void*, ros::console::Level, const stringstream&, const char*, int, const char*)[m[K’
+  165 | ROSCONSOLE_DECL void [01;36m[Kprint[m[K(FilterBase* filter, void* logger, Level level,
+      |                      [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:166:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 4 from ‘[01m[Kconst char [47][m[K’ to ‘[01m[Kconst stringstream&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_stringstream<char>&[m[K’}
+  166 |     [01;36m[Kconst std::stringstream& str[m[K, const char* file, int line, const char* function);
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+make[2]: *** [CMakeFiles/p3p_3d3d.dir/build.make:63：CMakeFiles/p3p_3d3d.dir/src/p3p_3d3d.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/p3p_3d3d.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

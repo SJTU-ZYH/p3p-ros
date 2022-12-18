@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/zyh/p3p-ros/devel/.private/p3p_pkg/setup.sh

@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -std=c++11 -O2  -msse4 -O3 -DNDEBUG  -shared -Wl,-soname,libgmock_main.so -o ../lib/libgmock_main.so CMakeFiles/gmock_main.dir/src/gmock_main.cc.o  -Wl,-rpath,/home/zyh/p3p-ros/build/pose_estimate_3d3d/gtest/lib ../lib/libgmock.so ../lib/libgtest.so -lpthread 

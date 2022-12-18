@@ -1,8 +1,0 @@
-prefix=/home/zyh/p3p-ros/devel/.private/p3p-pkg
-
-Name: p3p-pkg
-Description: Description of p3p-pkg
-Version: 0.0.0
-Cflags: -I/home/zyh/p3p-ros/src/p3p-pkg/include
-Libs: -L${prefix}/lib 
-Requires: roscpp rospy std_msgs cv_bridge

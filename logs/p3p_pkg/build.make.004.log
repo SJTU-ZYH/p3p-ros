@@ -1,0 +1,23 @@
+[35m[1mScanning dependencies of target p3p_3d3d[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/p3p_3d3d.dir/src/p3p_3d3d.cpp.o[0m
+[01m[K/home/zyh/p3p-ros/src/p3p_pkg/src/p3p_3d3d.cpp:[m[K In member function ‘[01m[Kvirtual bool VertexPose::read(std::istream&)[m[K’:
+[01m[K/home/zyh/p3p-ros/src/p3p_pkg/src/p3p_3d3d.cpp:67:44:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   67 |   virtual bool read(istream &in) override {[01;35m[K}[m[K
+      |                                            [01;35m[K^[m[K
+[01m[K/home/zyh/p3p-ros/src/p3p_pkg/src/p3p_3d3d.cpp:[m[K In member function ‘[01m[Kvirtual bool VertexPose::write(std::ostream&) const[m[K’:
+[01m[K/home/zyh/p3p-ros/src/p3p_pkg/src/p3p_3d3d.cpp:69:52:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   69 |   virtual bool write(ostream &out) const override {[01;35m[K}[m[K
+      |                                                    [01;35m[K^[m[K
+[01m[K/home/zyh/p3p-ros/src/p3p_pkg/src/p3p_3d3d.cpp:[m[K In member function ‘[01m[Kvirtual bool EdgeProjectXYZRGBDPoseOnly::read(std::istream&)[m[K’:
+[01m[K/home/zyh/p3p-ros/src/p3p_pkg/src/p3p_3d3d.cpp:92:27:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   92 |   bool read(istream &in) {[01;35m[K}[m[K
+      |                           [01;35m[K^[m[K
+[01m[K/home/zyh/p3p-ros/src/p3p_pkg/src/p3p_3d3d.cpp:[m[K In member function ‘[01m[Kvirtual bool EdgeProjectXYZRGBDPoseOnly::write(std::ostream&) const[m[K’:
+[01m[K/home/zyh/p3p-ros/src/p3p_pkg/src/p3p_3d3d.cpp:94:35:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   94 |   bool write(ostream &out) const {[01;35m[K}[m[K
+      |                                   [01;35m[K^[m[K
+[100%] [32m[1mLinking CXX executable /home/zyh/p3p-ros/devel/.private/p3p_pkg/lib/p3p_pkg/p3p_3d3d[0m
+/usr/bin/ld: warning: libopencv_flann.so.4.2, needed by /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.4.2.0, may conflict with libopencv_flann.so.3.4
+/usr/bin/ld: warning: libopencv_imgproc.so.4.2, needed by /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.4.2.0, may conflict with libopencv_imgproc.so.3.4
+/usr/bin/ld: warning: libopencv_core.so.3.4, needed by /usr/local/lib/libopencv_flann.so.3.4.3, may conflict with libopencv_core.so.4.2
+[100%] Built target p3p_3d3d

@@ -1,0 +1,158 @@
+[35m[1mScanning dependencies of target p3p-pkg_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/p3p-pkg_node.dir/src/p3p_3d3d.cpp.o[0m
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:[m[K In member function ‘[01m[Kvirtual bool VertexPose::read(std::istream&)[m[K’:
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:67:44:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   67 |   virtual bool read(istream &in) override {[01;35m[K}[m[K
+      |                                            [01;35m[K^[m[K
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:[m[K In member function ‘[01m[Kvirtual bool VertexPose::write(std::ostream&) const[m[K’:
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:69:52:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   69 |   virtual bool write(ostream &out) const override {[01;35m[K}[m[K
+      |                                                    [01;35m[K^[m[K
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:[m[K In member function ‘[01m[Kvirtual bool EdgeProjectXYZRGBDPoseOnly::read(std::istream&)[m[K’:
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:92:27:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   92 |   bool read(istream &in) {[01;35m[K}[m[K
+      |                           [01;35m[K^[m[K
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:[m[K In member function ‘[01m[Kvirtual bool EdgeProjectXYZRGBDPoseOnly::write(std::ostream&) const[m[K’:
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:94:35:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   94 |   bool write(ostream &out) const {[01;35m[K}[m[K
+      |                                   [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:1[m[K:
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:116:12:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 8 has type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K-Wformat=[m[K]
+  116 |   ROS_INFO([01;35m[K"img1_path:       %s"[m[K,img1_path);
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:116:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+  116 |   [01;36m[KROS_INFO[m[K("img1_path:       %s",img1_path);
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:116:31:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  116 |   ROS_INFO("img1_path:       [01;36m[K%s[m[K",img1_path);
+      |                              [01;36m[K~^[m[K
+      |                               [01;36m[K|[m[K
+      |                               [01;36m[Kchar*[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:1[m[K:
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:117:12:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 8 has type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K-Wformat=[m[K]
+  117 |   ROS_INFO([01;35m[K"img2_path:       %s"[m[K,img2_path);
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:117:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+  117 |   [01;36m[KROS_INFO[m[K("img2_path:       %s",img2_path);
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:117:31:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  117 |   ROS_INFO("img2_path:       [01;36m[K%s[m[K",img2_path);
+      |                              [01;36m[K~^[m[K
+      |                               [01;36m[K|[m[K
+      |                               [01;36m[Kchar*[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:1[m[K:
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:118:12:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 8 has type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K-Wformat=[m[K]
+  118 |   ROS_INFO([01;35m[K"depth1_path:     %s"[m[K,depth1_path);
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:118:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+  118 |   [01;36m[KROS_INFO[m[K("depth1_path:     %s",depth1_path);
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:118:31:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  118 |   ROS_INFO("depth1_path:     [01;36m[K%s[m[K",depth1_path);
+      |                              [01;36m[K~^[m[K
+      |                               [01;36m[K|[m[K
+      |                               [01;36m[Kchar*[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:1[m[K:
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:119:12:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 8 has type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K-Wformat=[m[K]
+  119 |   ROS_INFO([01;35m[K"depth1_path:     %s"[m[K,depth1_path);
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:119:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+  119 |   [01;36m[KROS_INFO[m[K("depth1_path:     %s",depth1_path);
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:119:31:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  119 |   ROS_INFO("depth1_path:     [01;36m[K%s[m[K",depth1_path);
+      |                              [01;36m[K~^[m[K
+      |                               [01;36m[K|[m[K
+      |                               [01;36m[Kchar*[m[K
+In file included from [01m[K/usr/include/Eigen/Core:366[m[K,
+                 from [01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:10[m[K:
+/usr/include/Eigen/src/Core/GeneralProduct.h: In instantiation of ‘[01m[Kconst Eigen::Product<Derived, OtherDerived> Eigen::MatrixBase<Derived>::operator*(const Eigen::MatrixBase<OtherDerived>&) const [with OtherDerived = Eigen::Matrix<double, 3, 1>; Derived = Eigen::CwiseUnaryOp<Eigen::internal::scalar_opposite_op<double>, const Eigen::Transpose<Eigen::Matrix<double, 4, 6> > >][m[K’:
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:358:29:[m[K   required from here
+[01m[K/usr/include/Eigen/src/Core/GeneralProduct.h:410:3:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: INVALID_MATRIX_PRODUCT
+  410 |   [01;31m[KEIGEN_STATIC_ASSERT[m[K(ProductIsValid || SameSizes, INVALID_MATRIX_PRODUCT)
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+/usr/include/Eigen/src/Core/GeneralProduct.h: In instantiation of ‘[01m[Kconst Eigen::Product<Derived, OtherDerived, 1> Eigen::MatrixBase<Derived>::lazyProduct(const Eigen::MatrixBase<OtherDerived>&) const [with OtherDerived = Eigen::Matrix<double, 3, 1>; Derived = Eigen::CwiseUnaryOp<Eigen::internal::scalar_opposite_op<double>, const Eigen::Transpose<Eigen::Matrix<double, 4, 6> > >][m[K’:
+[01m[K/usr/include/Eigen/src/Core/ProductEvaluators.h:397:29:[m[K   required from ‘[01m[Kstatic void Eigen::internal::generic_product_impl<Lhs, Rhs, Eigen::DenseShape, Eigen::DenseShape, 3>::evalTo(Dst&, const Lhs&, const Rhs&) [with Dst = Eigen::Matrix<double, 6, 1, 0, 6, 1>; Lhs = Eigen::CwiseUnaryOp<Eigen::internal::scalar_opposite_op<double>, const Eigen::Transpose<Eigen::Matrix<double, 4, 6> > >; Rhs = Eigen::Matrix<double, 3, 1>][m[K’
+[01m[K/usr/include/Eigen/src/Core/ProductEvaluators.h:148:43:[m[K   required from ‘[01m[Kstatic void Eigen::internal::Assignment<DstXprType, Eigen::Product<Lhs, Rhs, Options>, Eigen::internal::assign_op<Scalar, Scalar>, Eigen::internal::Dense2Dense, typename Eigen::internal::enable_if<((Options == Eigen::DefaultProduct) || (Options == Eigen::AliasFreeProduct))>::type>::run(DstXprType&, const SrcXprType&, const Eigen::internal::assign_op<Scalar, Scalar>&) [with DstXprType = Eigen::Matrix<double, 6, 1, 0, 6, 1>; Lhs = Eigen::CwiseUnaryOp<Eigen::internal::scalar_opposite_op<double>, const Eigen::Transpose<Eigen::Matrix<double, 4, 6> > >; Rhs = Eigen::Matrix<double, 3, 1>; int Options = 0; Scalar = double; Eigen::internal::Assignment<DstXprType, Eigen::Product<Lhs, Rhs, Options>, Eigen::internal::assign_op<Scalar, Scalar>, Eigen::internal::Dense2Dense, typename Eigen::internal::enable_if<((Options == Eigen::DefaultProduct) || (Options == Eigen::AliasFreeProduct))>::type>::SrcXprType = Eigen::Product<Eigen::CwiseUnaryOp<Eigen::internal::scalar_opposite_op<double>, const Eigen::Transpose<Eigen::Matrix<double, 4, 6> > >, Eigen::Matrix<double, 3, 1>, 0>][m[K’
+[01m[K/usr/include/Eigen/src/Core/AssignEvaluator.h:836:49:[m[K   required from ‘[01m[Kvoid Eigen::internal::call_assignment_no_alias(Dst&, const Src&, const Func&) [with Dst = Eigen::Matrix<double, 6, 1, 0, 6, 1>; Src = Eigen::Product<Eigen::CwiseUnaryOp<Eigen::internal::scalar_opposite_op<double>, const Eigen::Transpose<Eigen::Matrix<double, 4, 6> > >, Eigen::Matrix<double, 3, 1>, 0>; Func = Eigen::internal::assign_op<double, double>][m[K’
+[01m[K/usr/include/Eigen/src/Core/PlainObjectBase.h:732:41:[m[K   required from ‘[01m[KDerived& Eigen::PlainObjectBase<Derived>::_set_noalias(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::Product<Eigen::CwiseUnaryOp<Eigen::internal::scalar_opposite_op<double>, const Eigen::Transpose<Eigen::Matrix<double, 4, 6> > >, Eigen::Matrix<double, 3, 1>, 0>; Derived = Eigen::Matrix<double, 6, 1, 0, 6, 1>][m[K’
+[01m[K/usr/include/Eigen/src/Core/PlainObjectBase.h:816:7:[m[K   required from ‘[01m[Kvoid Eigen::PlainObjectBase<Derived>::_init1(const Eigen::DenseBase<ElseDerived>&) [with T = Eigen::Product<Eigen::CwiseUnaryOp<Eigen::internal::scalar_opposite_op<double>, const Eigen::Transpose<Eigen::Matrix<double, 4, 6> > >, Eigen::Matrix<double, 3, 1>, 0>; OtherDerived = Eigen::Product<Eigen::CwiseUnaryOp<Eigen::internal::scalar_opposite_op<double>, const Eigen::Transpose<Eigen::Matrix<double, 4, 6> > >, Eigen::Matrix<double, 3, 1>, 0>; Derived = Eigen::Matrix<double, 6, 1, 0, 6, 1>][m[K’
+[01m[K/usr/include/Eigen/src/Core/Matrix.h:294:31:[m[K   required from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T&) [with T = Eigen::Product<Eigen::CwiseUnaryOp<Eigen::internal::scalar_opposite_op<double>, const Eigen::Transpose<Eigen::Matrix<double, 4, 6> > >, Eigen::Matrix<double, 3, 1>, 0>; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+[01m[K/usr/include/Eigen/src/Core/AssignEvaluator.h:796:41:[m[K   required from ‘[01m[Kvoid Eigen::internal::call_assignment(Dst&, const Src&, const Func&, typename Eigen::internal::enable_if<Eigen::internal::evaluator_assume_aliasing<Src>::value, void*>::type) [with Dst = Eigen::Matrix<double, 6, 1, 0, 6, 1>; Src = Eigen::Product<Eigen::CwiseUnaryOp<Eigen::internal::scalar_opposite_op<double>, const Eigen::Transpose<Eigen::Matrix<double, 4, 6> > >, Eigen::Matrix<double, 3, 1>, 0>; Func = Eigen::internal::add_assign_op<double, double>; typename Eigen::internal::enable_if<Eigen::internal::evaluator_assume_aliasing<Src>::value, void*>::type = void*][m[K’
+[01m[K/usr/include/Eigen/src/Core/CwiseBinaryOp.h:177:18:[m[K   required from ‘[01m[KDerived& Eigen::MatrixBase<Derived>::operator+=(const Eigen::MatrixBase<OtherDerived>&) [with OtherDerived = Eigen::Product<Eigen::CwiseUnaryOp<Eigen::internal::scalar_opposite_op<double>, const Eigen::Transpose<Eigen::Matrix<double, 4, 6> > >, Eigen::Matrix<double, 3, 1>, 0>; Derived = Eigen::Matrix<double, 6, 1, 0, 6, 1>][m[K’
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:358:29:[m[K   required from here
+[01m[K/usr/include/Eigen/src/Core/GeneralProduct.h:448:3:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: INVALID_MATRIX_PRODUCT
+  448 |   [01;31m[KEIGEN_STATIC_ASSERT[m[K(ProductIsValid || SameSizes, INVALID_MATRIX_PRODUCT)
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+/usr/include/Eigen/src/Core/CwiseBinaryOp.h: In instantiation of ‘[01m[KEigen::CwiseBinaryOp<BinaryOp, Lhs, Rhs>::CwiseBinaryOp(const Lhs&, const Rhs&, const BinaryOp&) [with BinaryOp = Eigen::internal::scalar_product_op<double, double>; LhsType = const Eigen::Transpose<const Eigen::Block<const Eigen::CwiseUnaryOp<Eigen::internal::scalar_opposite_op<double>, const Eigen::Transpose<Eigen::Matrix<double, 4, 6> > >, 1, 4, true> >; RhsType = const Eigen::Block<const Eigen::Matrix<double, 3, 1>, 3, 1, true>; Eigen::CwiseBinaryOp<BinaryOp, Lhs, Rhs>::Lhs = Eigen::Transpose<const Eigen::Block<const Eigen::CwiseUnaryOp<Eigen::internal::scalar_opposite_op<double>, const Eigen::Transpose<Eigen::Matrix<double, 4, 6> > >, 1, 4, true> >; Eigen::CwiseBinaryOp<BinaryOp, Lhs, Rhs>::Rhs = Eigen::Block<const Eigen::Matrix<double, 3, 1>, 3, 1, true>][m[K’:
+[01m[K/usr/include/Eigen/src/plugins/MatrixCwiseBinaryOps.h:25:10:[m[K   required from ‘[01m[Kconst Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<typename Eigen::internal::traits<T>::Scalar, typename Eigen::internal::traits<OtherDerived>::Scalar>, const Derived, const OtherDerived> Eigen::MatrixBase<Derived>::cwiseProduct(const Eigen::MatrixBase<OtherDerived>&) const [with OtherDerived = Eigen::Block<const Eigen::Matrix<double, 3, 1>, 3, 1, true>; Derived = Eigen::Transpose<const Eigen::Block<const Eigen::CwiseUnaryOp<Eigen::internal::scalar_opposite_op<double>, const Eigen::Transpose<Eigen::Matrix<double, 4, 6> > >, 1, 4, true> >; typename Eigen::internal::traits<OtherDerived>::Scalar = double; typename Eigen::internal::traits<T>::Scalar = double][m[K’
+[01m[K/usr/include/Eigen/src/Core/ProductEvaluators.h:563:72:[m[K   required from ‘[01m[Kconst CoeffReturnType Eigen::internal::product_evaluator<Eigen::Product<Lhs, Rhs, 1>, ProductTag, Eigen::DenseShape, Eigen::DenseShape>::coeff(Eigen::Index) const [with Lhs = Eigen::CwiseUnaryOp<Eigen::internal::scalar_opposite_op<double>, const Eigen::Transpose<Eigen::Matrix<double, 4, 6> > >; Rhs = Eigen::Matrix<double, 3, 1>; int ProductTag = 3; typename Eigen::internal::traits<typename Eigen::Product<Lhs, Rhs, 1>::Rhs>::Scalar = double; typename Eigen::internal::traits<typename Eigen::Product<Lhs, Rhs, 1>::Lhs>::Scalar = double; Eigen::internal::product_evaluator<Eigen::Product<Lhs, Rhs, 1>, ProductTag, Eigen::DenseShape, Eigen::DenseShape>::CoeffReturnType = double; Eigen::Index = long int][m[K’
+[01m[K/usr/include/Eigen/src/Core/AssignEvaluator.h:637:5:[m[K   required from ‘[01m[Kvoid Eigen::internal::generic_dense_assignment_kernel<DstEvaluatorTypeT, SrcEvaluatorTypeT, Functor, Version>::assignCoeff(Eigen::Index) [with DstEvaluatorTypeT = Eigen::internal::evaluator<Eigen::Matrix<double, 6, 1, 0, 6, 1> >; SrcEvaluatorTypeT = Eigen::internal::evaluator<Eigen::Product<Eigen::CwiseUnaryOp<Eigen::internal::scalar_opposite_op<double>, const Eigen::Transpose<Eigen::Matrix<double, 4, 6> > >, Eigen::Matrix<double, 3, 1>, 1> >; Functor = Eigen::internal::assign_op<double, double>; int Version = 0; Eigen::Index = long int][m[K’
+[01m[K/usr/include/Eigen/src/Core/AssignEvaluator.h:242:5:[m[K   required from ‘[01m[Kstatic void Eigen::internal::copy_using_evaluator_LinearTraversal_CompleteUnrolling<Kernel, Index, Stop>::run(Kernel&) [with Kernel = Eigen::internal::generic_dense_assignment_kernel<Eigen::internal::evaluator<Eigen::Matrix<double, 6, 1, 0, 6, 1> >, Eigen::internal::evaluator<Eigen::Product<Eigen::CwiseUnaryOp<Eigen::internal::scalar_opposite_op<double>, const Eigen::Transpose<Eigen::Matrix<double, 4, 6> > >, Eigen::Matrix<double, 3, 1>, 1> >, Eigen::internal::assign_op<double, double>, 0>; int Index = 0; int Stop = 6][m[K’
+[01m[K/usr/include/Eigen/src/Core/AssignEvaluator.h:507:106:[m[K   required from ‘[01m[Kstatic void Eigen::internal::dense_assignment_loop<Kernel, 1, 2>::run(Kernel&) [with Kernel = Eigen::internal::generic_dense_assignment_kernel<Eigen::internal::evaluator<Eigen::Matrix<double, 6, 1, 0, 6, 1> >, Eigen::internal::evaluator<Eigen::Product<Eigen::CwiseUnaryOp<Eigen::internal::scalar_opposite_op<double>, const Eigen::Transpose<Eigen::Matrix<double, 4, 6> > >, Eigen::Matrix<double, 3, 1>, 1> >, Eigen::internal::assign_op<double, double>, 0>][m[K’
+[01m[K/usr/include/Eigen/src/Core/AssignEvaluator.h:741:37:[m[K   [ skipping 6 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+[01m[K/usr/include/Eigen/src/Core/PlainObjectBase.h:732:41:[m[K   required from ‘[01m[KDerived& Eigen::PlainObjectBase<Derived>::_set_noalias(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::Product<Eigen::CwiseUnaryOp<Eigen::internal::scalar_opposite_op<double>, const Eigen::Transpose<Eigen::Matrix<double, 4, 6> > >, Eigen::Matrix<double, 3, 1>, 0>; Derived = Eigen::Matrix<double, 6, 1, 0, 6, 1>][m[K’
+[01m[K/usr/include/Eigen/src/Core/PlainObjectBase.h:816:7:[m[K   required from ‘[01m[Kvoid Eigen::PlainObjectBase<Derived>::_init1(const Eigen::DenseBase<ElseDerived>&) [with T = Eigen::Product<Eigen::CwiseUnaryOp<Eigen::internal::scalar_opposite_op<double>, const Eigen::Transpose<Eigen::Matrix<double, 4, 6> > >, Eigen::Matrix<double, 3, 1>, 0>; OtherDerived = Eigen::Product<Eigen::CwiseUnaryOp<Eigen::internal::scalar_opposite_op<double>, const Eigen::Transpose<Eigen::Matrix<double, 4, 6> > >, Eigen::Matrix<double, 3, 1>, 0>; Derived = Eigen::Matrix<double, 6, 1, 0, 6, 1>][m[K’
+[01m[K/usr/include/Eigen/src/Core/Matrix.h:294:31:[m[K   required from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T&) [with T = Eigen::Product<Eigen::CwiseUnaryOp<Eigen::internal::scalar_opposite_op<double>, const Eigen::Transpose<Eigen::Matrix<double, 4, 6> > >, Eigen::Matrix<double, 3, 1>, 0>; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+[01m[K/usr/include/Eigen/src/Core/AssignEvaluator.h:796:41:[m[K   required from ‘[01m[Kvoid Eigen::internal::call_assignment(Dst&, const Src&, const Func&, typename Eigen::internal::enable_if<Eigen::internal::evaluator_assume_aliasing<Src>::value, void*>::type) [with Dst = Eigen::Matrix<double, 6, 1, 0, 6, 1>; Src = Eigen::Product<Eigen::CwiseUnaryOp<Eigen::internal::scalar_opposite_op<double>, const Eigen::Transpose<Eigen::Matrix<double, 4, 6> > >, Eigen::Matrix<double, 3, 1>, 0>; Func = Eigen::internal::add_assign_op<double, double>; typename Eigen::internal::enable_if<Eigen::internal::evaluator_assume_aliasing<Src>::value, void*>::type = void*][m[K’
+[01m[K/usr/include/Eigen/src/Core/CwiseBinaryOp.h:177:18:[m[K   required from ‘[01m[KDerived& Eigen::MatrixBase<Derived>::operator+=(const Eigen::MatrixBase<OtherDerived>&) [with OtherDerived = Eigen::Product<Eigen::CwiseUnaryOp<Eigen::internal::scalar_opposite_op<double>, const Eigen::Transpose<Eigen::Matrix<double, 4, 6> > >, Eigen::Matrix<double, 3, 1>, 0>; Derived = Eigen::Matrix<double, 6, 1, 0, 6, 1>][m[K’
+[01m[K/home/zyh/p3p-ros/src/p3p-pkg/src/p3p_3d3d.cpp:358:29:[m[K   required from here
+[01m[K/usr/include/Eigen/src/Core/CwiseBinaryOp.h:109:7:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: YOU_MIXED_MATRICES_OF_DIFFERENT_SIZES
+  109 |       [01;31m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K(Lhs, Rhs)
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/p3p-pkg_node.dir/build.make:63：CMakeFiles/p3p-pkg_node.dir/src/p3p_3d3d.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/p3p-pkg_node.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

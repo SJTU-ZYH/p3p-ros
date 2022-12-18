@@ -1,1 +1,0 @@
-/home/zyh/p3p-ros/devel/.private/p3p-pkg/lib/pkgconfig/p3p-pkg.pc
