@@ -337,6 +337,8 @@ void bundleAdjustment(
     R_(2, 0), R_(2, 1), R_(2, 2)
   );
   t = (Mat_<double>(3, 1) << t_(0, 0), t_(1, 0), t_(2, 0));
+  cout << "R_inv = " << R.t() << endl;
+  cout << "t_inv = " << -R.t() * t << endl;
 }
 
 void bundleAdjustmentGaussNewton(

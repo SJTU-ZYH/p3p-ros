@@ -1,0 +1,23 @@
+[01m[K/home/zyh/p3p-ros/src/p3p_pkg/src/p3p_3d3d.cpp:[m[K In member function ‘[01m[Kvirtual bool VertexPose::read(std::istream&)[m[K’:
+[01m[K/home/zyh/p3p-ros/src/p3p_pkg/src/p3p_3d3d.cpp:73:44:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   73 |   virtual bool read(istream &in) override {[01;35m[K}[m[K
+      |                                            [01;35m[K^[m[K
+[01m[K/home/zyh/p3p-ros/src/p3p_pkg/src/p3p_3d3d.cpp:[m[K In member function ‘[01m[Kvirtual bool VertexPose::write(std::ostream&) const[m[K’:
+[01m[K/home/zyh/p3p-ros/src/p3p_pkg/src/p3p_3d3d.cpp:75:52:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   75 |   virtual bool write(ostream &out) const override {[01;35m[K}[m[K
+      |                                                    [01;35m[K^[m[K
+[01m[K/home/zyh/p3p-ros/src/p3p_pkg/src/p3p_3d3d.cpp:[m[K In member function ‘[01m[Kvirtual bool EdgeProjectXYZRGBDPoseOnly::read(std::istream&)[m[K’:
+[01m[K/home/zyh/p3p-ros/src/p3p_pkg/src/p3p_3d3d.cpp:98:27:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   98 |   bool read(istream &in) {[01;35m[K}[m[K
+      |                           [01;35m[K^[m[K
+[01m[K/home/zyh/p3p-ros/src/p3p_pkg/src/p3p_3d3d.cpp:[m[K In member function ‘[01m[Kvirtual bool EdgeProjectXYZRGBDPoseOnly::write(std::ostream&) const[m[K’:
+[01m[K/home/zyh/p3p-ros/src/p3p_pkg/src/p3p_3d3d.cpp:100:35:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  100 |   bool write(ostream &out) const {[01;35m[K}[m[K
+      |                                   [01;35m[K^[m[K
+[01m[K/home/zyh/p3p-ros/src/p3p_pkg/src/p3p_3d3d.cpp:[m[K In function ‘[01m[Kvoid bundleAdjustment(const std::vector<cv::Point3_<float> >&, const std::vector<cv::Point3_<float> >&, cv::Mat&, cv::Mat&)[m[K’:
+[01m[K/home/zyh/p3p-ros/src/p3p_pkg/src/p3p_3d3d.cpp:330:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Transformation = Sophus::Matrix<double, 4, 4>[m[K’ {aka ‘[01m[Kclass Eigen::Matrix<double, 4, 4>[m[K’} has no member named ‘[01m[Kt[m[K’
+  330 |   cout << "T_inv=\n = " << pose->estimate().matrix().[01;31m[Kt[m[K() << endl;
+      |                                                      [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/p3p_3d3d.dir/build.make:63：CMakeFiles/p3p_3d3d.dir/src/p3p_3d3d.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/p3p_3d3d.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2
